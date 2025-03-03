@@ -41,7 +41,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Pages
-        uses: actions/configure-pages@v4  # 新增步骤
+        uses: actions/configure-pages@v5  # 新增步骤
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
